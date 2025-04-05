@@ -29,3 +29,9 @@
   color: var(--logo-clr);
   border-bottom: 2px solid var(--logo-clr);
 }
+
+@media (max-width: 640px) {
+  .logo {
+    display: none;
+  }
+}
