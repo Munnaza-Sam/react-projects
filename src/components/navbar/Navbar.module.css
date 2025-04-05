@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px #00e9c04d;
+
+}
+
+.logo {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.nav_link {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav_link a:hover {
+  color: var(--logo-clr);
+}
+
+.actived {
+  color: var(--logo-clr);
+  border-bottom: 2px solid var(--logo-clr);
+}

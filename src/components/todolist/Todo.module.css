@@ -1,0 +1,110 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto 0;
+    background-color: white;
+    padding: 40px 20px;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    height: calc(100vh - 190px);
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background-color: #707070;
+}
+
+.container h2 {
+    font-size: 27px;
+    font-weight: 500px;
+}
+
+.Add_todo {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.Add_todo button {
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.Add_todo button:hover {
+    background: #858080;
+}
+
+.Add_todo input {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex: 1;
+    padding-left: 28px;
+    font-size: 16px;
+}
+
+.Add_todo input:focus {
+    outline-color: #7100ea;
+}
+
+.search_icon {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+
+}
+
+.todolist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px -7px var(--logo-clr);
+    margin-bottom:10px;
+    overflow: hidden;
+}
+
+.todolist span svg {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-left: 8px;
+}
+
+.todolist span {
+    display: flex;
+}
+
+.todolist p small {
+    margin-left: 5px;
+}
+
+.parentTodoList {
+    overflow-y: auto;
+}
+
+.message {
+    background: rgb(115, 219, 115);
+    color: black;
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    right: 30%;
+    left: 30%;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
