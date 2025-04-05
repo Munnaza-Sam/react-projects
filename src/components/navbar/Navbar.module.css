@@ -5,7 +5,6 @@
   background-color: transparent;
   padding: 10px 20px;
   box-shadow: 0 2px 5px #00e9c04d;
-
 }
 
 .logo {
@@ -33,5 +32,13 @@
 @media (max-width: 640px) {
   .logo {
     display: none;
+  }
+  .nav_link {
+    color: white;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .navbar {
+    padding: 20px 10px;
   }
 }
